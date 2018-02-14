@@ -36,6 +36,6 @@
   </config>
 
   <updateservers>
-    <server type="extension" priority="1" name="System - isrobot by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_bfisrobot.xml</server>
+    <server type="extension" priority="1" name="System - isrobot by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_system_bfisrobot.xml</server>
   </updateservers>
 </extension>
