@@ -37,7 +37,7 @@
 
   <updateservers>
     <server type="extension" priority="1" name="System - isrobot by BrainforgeUK">
-			https://brainforge.co.uk/media/com_bfupdater/plg_system_bfisrobot.xml
+			https://brainforge.co.uk/component/bfupdater?element=com_bfupdater/plg_system_bfisrobot.xml
 		</server>
   </updateservers>
 </extension>
