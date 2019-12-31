@@ -86,6 +86,7 @@ class plgSystemBFisrobot extends JPlugin {
               'spbot',
               'vagabondo',
               'wise guys',
+              'xovi',
               'yandex',
               'yandexbot'
         );
