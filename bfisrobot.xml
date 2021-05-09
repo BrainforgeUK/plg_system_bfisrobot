@@ -7,7 +7,7 @@
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
   <copyright>Copyright 2013-2021 Jonathan Brain. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>4.0.4</version>
+  <version>4.1.0</version>
   <description>Plugin for detecting when site is visited by a robot.&lt;br /&gt;
   Defines constant IS_CRAWLER with name of crawler, otherwise null.&lt;br /&gt;
   Make sure it runs before any other plugins which require this functionality.&lt;br /&gt; 

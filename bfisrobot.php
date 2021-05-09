@@ -6,14 +6,14 @@
 * @copyright Copyright (C) 2013-2021 Jonathan Brain. All rights reserved.
 * @license	 GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
- 
+
+use Joomla\CMS\Environment\Browser;
+use Joomla\CMS\Plugin\CMSPlugin;
+
 // no direct access
 defined('_JEXEC') or die;
 
-jimport( 'joomla.plugin.plugin');
-jimport( 'joomla.environment.browser' );
-
-class plgSystemBFisrobot extends JPlugin {
+class plgSystemBFisrobot extends CMSPlugin {
   /**
    *
    */
@@ -26,7 +26,7 @@ class plgSystemBFisrobot extends JPlugin {
     }
 
     // Catch robots defined in Joomla
- 		$browser = JBrowser::getInstance();
+ 		$browser = Browser::getInstance();
     if ($browser->isrobot()) {
       define('IS_CRAWLER', $_SERVER['HTTP_USER_AGENT']);
       return true;
