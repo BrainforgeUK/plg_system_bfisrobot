@@ -77,6 +77,7 @@ class plgSystemBFisrobot extends JPlugin {
               'mj12bot',
               'nutch',
               'pagebot',
+              'petalbot',
               'proximic',
               'rambler',
               'rogerbot',
