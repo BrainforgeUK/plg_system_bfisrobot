@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-* @package   Plugin for detecting when site is visited by a robot.
-* @version   0.0.1
-* @author    http://www.brainforge.co.uk
-* @copyright Copyright (C) 2013-2018 Jonathan Brain. All rights reserved.
-* @license	 GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
--->
 <extension version="2.5" type="plugin" group="system" method="upgrade">
   <name>System - isrobot by BrainforgeUK</name>
   <creationDate>02 August 2013</creationDate>
   <author>Jonathan Brain</author>
   <authorEmail>brainforge@btinternet.com</authorEmail>
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
-  <copyright>Copyright 2013-2020 Jonathan Brain. All rights reserved.</copyright>
+  <copyright>Copyright 2013-2021 Jonathan Brain. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>4.0.3</version>
+  <version>4.0.4</version>
   <description>Plugin for detecting when site is visited by a robot.&lt;br /&gt;
   Defines constant IS_CRAWLER with name of crawler, otherwise null.&lt;br /&gt;
   Make sure it runs before any other plugins which require this functionality.&lt;br /&gt; 
